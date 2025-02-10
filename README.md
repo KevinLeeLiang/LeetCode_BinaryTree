@@ -10,6 +10,10 @@ LeetCode二叉树算法题的解题仓库
 
 [95. 不同的二叉搜索树 II](https://leetcode.cn/problems/unique-binary-search-trees-ii/?envType=problem-list-v2&envId=binary-tree) : [L95_generateTrees](L95_generateTrees)
 
+[96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/?envType=problem-list-v2&envId=binary-tree) : [L96_numTrees](L96_numTrees)
+
 [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/?envType=problem-list-v2&envId=binary-search-tree) : [L98_isValidBST](L98_isValidBST)
 
 [99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/?envType=problem-list-v2&envId=binary-search-tree) : [L99_recoverTree](L99_recoverTree)
+
+[100. 相同的树](https://leetcode.cn/problems/same-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L100_isSameTree](L100_isSameTree)

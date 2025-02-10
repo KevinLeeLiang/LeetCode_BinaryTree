@@ -13,39 +13,53 @@
 
 #ifndef BINARYTREE_TEST_FACTORY_H
 #define BINARYTREE_TEST_FACTORY_H
+
 #include <memory>
 #include "L94_inorderTraversal/L94_inorderTraversal.h"
 #include "L95_generateTrees/L95_generateTrees.h"
+#include "L96_numTrees/L96_numsTrees.h"
 #include "L98_isValidBST/L98_isValidBST.h"
 #include "L99_recoverTree/L99_recoverTree.h"
+#include "L100_isSameTree/L100_isSampleTree.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
         if (title == "L94") {
-            std::shared_ptr<L94_inorderTraversal> tmp= std::make_shared<L94_inorderTraversal>();
+            std::shared_ptr<L94_inorderTraversal> tmp = std::make_shared<L94_inorderTraversal>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L95") {
-            std::shared_ptr<L95_generateTrees> tmp= std::make_shared<L95_generateTrees>();
+            std::shared_ptr<L95_generateTrees> tmp = std::make_shared<L95_generateTrees>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L96") {
+            std::shared_ptr<L96_numsTrees> tmp = std::make_shared<L96_numsTrees>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L98") {
-            std::shared_ptr<L98_isValidBST> tmp= std::make_shared<L98_isValidBST>();
+            std::shared_ptr<L98_isValidBST> tmp = std::make_shared<L98_isValidBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L99") {
-            std::shared_ptr<L99_recoverTree> tmp= std::make_shared<L99_recoverTree>();
+            std::shared_ptr<L99_recoverTree> tmp = std::make_shared<L99_recoverTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L100") {
+            std::shared_ptr<L100_isSampleTree> tmp = std::make_shared<L100_isSampleTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
+
 public:
     test_factory(string title) {
         cout << "test " << title << endl;
         buildSolution(title);
     }
+
     void test() {
         solution_->test();
     }
+
     ~test_factory() {}
 
 private:
     std::shared_ptr<LeetcodeBinaryTree> solution_;
 };
+
 #endif //BINARYTREE_TEST_FACTORY_H

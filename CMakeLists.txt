@@ -3,4 +3,4 @@ project(BinaryTree)
 
 set(CMAKE_CXX_STANDARD 17)
 include_directories(util)
-add_executable(BinaryTree main.cpp util/util.h test_factory.h L94_inorderTraversal/L94_inorderTraversal.cpp L94_inorderTraversal/L94_inorderTraversal.h L95_generateTrees/L95_generateTrees.cpp L95_generateTrees/L95_generateTrees.h L98_isValidBST/L98_isValidBST.cpp L98_isValidBST/L98_isValidBST.h L99_recoverTree/L99_recoverTree.cpp L99_recoverTree/L99_recoverTree.h)
+add_executable(BinaryTree main.cpp util/util.h test_factory.h L94_inorderTraversal/L94_inorderTraversal.cpp L94_inorderTraversal/L94_inorderTraversal.h L95_generateTrees/L95_generateTrees.cpp L95_generateTrees/L95_generateTrees.h L98_isValidBST/L98_isValidBST.cpp L98_isValidBST/L98_isValidBST.h L99_recoverTree/L99_recoverTree.cpp L99_recoverTree/L99_recoverTree.h L96_numTrees/L96_numsTrees.cpp L96_numTrees/L96_numsTrees.h L100_isSameTree/L100_isSampleTree.cpp L100_isSameTree/L100_isSampleTree.h)
