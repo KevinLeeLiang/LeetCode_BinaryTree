@@ -17,3 +17,7 @@ LeetCode二叉树算法题的解题仓库
 [99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/?envType=problem-list-v2&envId=binary-search-tree) : [L99_recoverTree](L99_recoverTree)
 
 [100. 相同的树](https://leetcode.cn/problems/same-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L100_isSameTree](L100_isSameTree)
+
+[101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/?envType=problem-list-v2&envId=binary-tree) : [L101_isSymmetric](L101_isSymmetric)
+
+[102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=binary-tree) : [L102_levelOrder](L102_levelOrder)
