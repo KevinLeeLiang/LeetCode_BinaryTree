@@ -23,6 +23,8 @@
 #include "L100_isSameTree/L100_isSampleTree.h"
 #include "L101_isSymmetric/L101_isSymmetric.h"
 #include "L102_levelOrder/L102_levelOrder.h"
+#include "L103_zigzagLevelOrder/L103_zigzagLevelOrder.h"
+#include "L104_maxDepth/L104_maxDepth.h"
 
 class test_factory {
 private:
@@ -51,8 +53,12 @@ private:
         } else if (title == "L102") {
             std::shared_ptr<L102_levelOrder> tmp = std::make_shared<L102_levelOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L103") {
+            std::shared_ptr<L103_zigzagLevelOrder> tmp = std::make_shared<L103_zigzagLevelOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L104") {
+            std::shared_ptr<L104_maxDepth> tmp = std::make_shared<L104_maxDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
 

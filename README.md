@@ -21,3 +21,7 @@ LeetCode二叉树算法题的解题仓库
 [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/?envType=problem-list-v2&envId=binary-tree) : [L101_isSymmetric](L101_isSymmetric)
 
 [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=binary-tree) : [L102_levelOrder](L102_levelOrder)
+
+[103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/description/?envType=problem-list-v2&envId=binary-tree) : [L103_zigzagLevelOrder](L103_zigzagLevelOrder)
+
+[104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L104_maxDepth](L104_maxDepth)
