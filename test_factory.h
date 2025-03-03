@@ -25,6 +25,8 @@
 #include "L102_levelOrder/L102_levelOrder.h"
 #include "L103_zigzagLevelOrder/L103_zigzagLevelOrder.h"
 #include "L104_maxDepth/L104_maxDepth.h"
+#include "L105_buildTree/L105_buildTree.h"
+#include "L106_buildTree/L106_buildTree.h"
 
 class test_factory {
 private:
@@ -59,6 +61,14 @@ private:
         } else if (title == "L104") {
             std::shared_ptr<L104_maxDepth> tmp = std::make_shared<L104_maxDepth>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L105") {
+            std::shared_ptr<L105_buildTree> tmp = std::make_shared<L105_buildTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L106") {
+            std::shared_ptr<L106_buildTree> tmp = std::make_shared<L106_buildTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else {
+            solution_ = nullptr;
         }
     }
 
