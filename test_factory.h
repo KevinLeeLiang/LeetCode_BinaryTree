@@ -29,6 +29,7 @@
 #include "L106_buildTree/L106_buildTree.h"
 #include "L107_levelOrderBottom/L107_levelOrderBottom.h"
 #include "L108_sortedArrayToBST/L108_sortedArrayToBST.h"
+#include "L109_sortedListToBST/L109_sortedListToBST.h"
 
 class test_factory {
 private:
@@ -74,6 +75,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L108") {
             std::shared_ptr<L108_sortedArrayToBST> tmp = std::make_shared<L108_sortedArrayToBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L109") {
+            std::shared_ptr<L109_sortedListToBST> tmp = std::make_shared<L109_sortedListToBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }

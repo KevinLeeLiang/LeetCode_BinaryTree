@@ -17,7 +17,7 @@ TreeNode* L108_sortedArrayToBST::sortedArrayToBST(vector<int>& nums, int left, i
     if (left > right) {
         return nullptr;
     }
-    int mid = left + (right - left) / 2;
+    int mid = (left + right + 1) / 2;
     TreeNode* root = new TreeNode(nums[mid]);
     root->left = sortedArrayToBST(nums, left, mid - 1);
     root->right = sortedArrayToBST(nums, mid + 1, right);
