@@ -30,6 +30,9 @@
 #include "L107_levelOrderBottom/L107_levelOrderBottom.h"
 #include "L108_sortedArrayToBST/L108_sortedArrayToBST.h"
 #include "L109_sortedListToBST/L109_sortedListToBST.h"
+#include "L110_isBalanced/L110_isBalanced.h"
+#include "L111_minDepth/L111_minDepth.h"
+#include "L112_hasPathSum/L112_hasPathSum.h"
 
 class test_factory {
 private:
@@ -78,6 +81,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L109") {
             std::shared_ptr<L109_sortedListToBST> tmp = std::make_shared<L109_sortedListToBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L110") {
+            std::shared_ptr<L110_isBalanced> tmp = std::make_shared<L110_isBalanced>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L111") {
+            std::shared_ptr<L111_minDepth> tmp = std::make_shared<L111_minDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L112") {
+            std::shared_ptr<L112_hasPathSum> tmp = std::make_shared<L112_hasPathSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
