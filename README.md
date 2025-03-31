@@ -41,3 +41,7 @@ LeetCode二叉树算法题的解题仓库
 [111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L111_minDepth](L111_minDepth)
 
 [112. 路径总和](https://leetcode.cn/problems/path-sum/description/?envType=problem-list-v2&envId=binary-tree) : [L112_hasPathSum](L112_hasPathSum)
+
+[113. 路径总和 II](https://leetcode.cn/problems/path-sum-ii/description/?envType=problem-list-v2&envId=binary-tree) : [L113_pathSum](L113_pathSum)
+
+[114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=binary-tree) : [L114_flatten](L114_flatten)
