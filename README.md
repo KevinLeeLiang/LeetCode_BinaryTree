@@ -45,3 +45,7 @@ LeetCode二叉树算法题的解题仓库
 [113. 路径总和 II](https://leetcode.cn/problems/path-sum-ii/description/?envType=problem-list-v2&envId=binary-tree) : [L113_pathSum](L113_pathSum)
 
 [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=binary-tree) : [L114_flatten](L114_flatten)
+
+[116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=binary-tree) : [L116_connect](L116_connect)
+
+[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=binary-tree) : [L117_connect](L117_connect)
