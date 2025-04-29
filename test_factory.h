@@ -41,6 +41,8 @@
 #include "L129_sumNumbers/L129_sumNumbers.h"
 #include "L144_preorderTraversal/L144_preorderTraversal.h"
 #include "L145_postorderTraversal/L145_postorderTraversal.h"
+#include "L173_BSTIterator/L173_BSTiterator.h"
+#include "L199_rightSideView/L199_rightSideView.h"
 
 class test_factory {
 private:
@@ -122,6 +124,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L145") {
             std::shared_ptr<L145_postorderTraversal> tmp = std::make_shared<L145_postorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L173") {
+            std::shared_ptr<L173_BSTiterator> tmp = std::make_shared<L173_BSTiterator>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L199") {
+            std::shared_ptr<L199_rightSideView> tmp = std::make_shared<L199_rightSideView>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
