@@ -43,6 +43,9 @@
 #include "L145_postorderTraversal/L145_postorderTraversal.h"
 #include "L173_BSTIterator/L173_BSTiterator.h"
 #include "L199_rightSideView/L199_rightSideView.h"
+#include "L393_validUtf8/L393_validUtf8.h"
+#include "L397_integerReplacement/L397_integerReplacement.h"
+
 
 class test_factory {
 private:
