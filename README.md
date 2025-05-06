@@ -61,3 +61,7 @@ LeetCode二叉树算法题的解题仓库
 [173. 二叉搜索树迭代器](https://leetcode.cn/problems/binary-search-tree-iterator/description/?envType=problem-list-v2&envId=binary-tree) : [L173_BSTIterator](L173_BSTIterator)
 
 [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=problem-list-v2&envId=binary-tree) : [L199_rightSideView](L199_rightSideView)
+
+[222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=binary-tree) : [L222_countNodes](L222_countNodes)
+
+[226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L226_invertTree](L226_invertTree)
