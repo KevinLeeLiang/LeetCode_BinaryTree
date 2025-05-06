@@ -43,9 +43,8 @@
 #include "L145_postorderTraversal/L145_postorderTraversal.h"
 #include "L173_BSTIterator/L173_BSTiterator.h"
 #include "L199_rightSideView/L199_rightSideView.h"
-#include "L393_validUtf8/L393_validUtf8.h"
-#include "L397_integerReplacement/L397_integerReplacement.h"
-
+#include "L222_countNodes/L222_countNodes.h"
+#include "L226_invertTree/L226_invertTree.h"
 
 class test_factory {
 private:
@@ -133,6 +132,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L199") {
             std::shared_ptr<L199_rightSideView> tmp = std::make_shared<L199_rightSideView>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L222") {
+            std::shared_ptr<L222_countNodes> tmp = std::make_shared<L222_countNodes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L226") {
+            std::shared_ptr<L226_invertTree> tmp = std::make_shared<L226_invertTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
