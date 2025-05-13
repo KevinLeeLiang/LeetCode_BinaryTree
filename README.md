@@ -65,3 +65,7 @@ LeetCode二叉树算法题的解题仓库
 [222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=binary-tree) : [L222_countNodes](L222_countNodes)
 
 [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L226_invertTree](L226_invertTree)
+
+[230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=binary-tree) : [L230_kthSmallest](L230_kthSmallest)
+
+[235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L235_lowestCommonAncestor](L235_lowestCommonAncestor)
