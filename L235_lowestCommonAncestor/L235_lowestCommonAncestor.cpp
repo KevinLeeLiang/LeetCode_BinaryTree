@@ -14,15 +14,19 @@
 #include "L235_lowestCommonAncestor.h"
 
 TreeNode* L235_lowestCommonAncestor::lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-    if (root == nullptr) {
-        return nullptr;
+    TreeNode* ancestor = root;
+    while (true) {
+        if (p->val < ancestor->val && q->val < ancestor->val) {
+            ancestor = ancestor->left;
+        }
+        else if (p->val > ancestor->val && q->val > ancestor->val) {
+            ancestor = ancestor->right;
+        }
+        else {
+            break;
+        }
     }
-    if (root == p || root == q) {
-        return root;
-    }
-    TreeNode* left = lowestCommonAncestor(root->left, p, q);
-    TreeNode* right = lowestCommonAncestor(root->right, p, q);
-    if (left != nullptr && right != nullptr) {}
+    return ancestor;
 }
 
 void L235_lowestCommonAncestor::test() {
