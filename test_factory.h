@@ -49,6 +49,7 @@
 #include "L235_lowestCommonAncestor/L235_lowestCommonAncestor.h"
 #include "L236_lowestCommonAncestor/L236_lowestCommonAncestor.h"
 #include "L257_binaryTreePaths/L257_binaryTreePaths.h"
+#include "L297_serializeAndDeserialize/L297_serializeAndDeserialize.h"
 
 class test_factory {
 private:
@@ -151,6 +152,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L257") {
             std::shared_ptr<L257_binaryTreePaths> tmp = std::make_shared<L257_binaryTreePaths>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L297") {
+            std::shared_ptr<L297_serializeAndDeserialize> tmp = std::make_shared<L297_serializeAndDeserialize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
