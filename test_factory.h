@@ -50,6 +50,9 @@
 #include "L236_lowestCommonAncestor/L236_lowestCommonAncestor.h"
 #include "L257_binaryTreePaths/L257_binaryTreePaths.h"
 #include "L297_serializeAndDeserialize/L297_serializeAndDeserialize.h"
+#include "L331_isValidSerialization/L331_isValidSerialization.h"
+#include "L337_rob/L337_rob.h"
+#include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
 
 class test_factory {
 private:
@@ -155,6 +158,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L297") {
             std::shared_ptr<L297_serializeAndDeserialize> tmp = std::make_shared<L297_serializeAndDeserialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L331") {
+            std::shared_ptr<L331_isValidSerialization> tmp = std::make_shared<L331_isValidSerialization>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L337") {
+            std::shared_ptr<L337_rob> tmp = std::make_shared<L337_rob>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L404") {
+            std::shared_ptr<L404_sumOfLeftLeaves> tmp = std::make_shared<L404_sumOfLeftLeaves>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
