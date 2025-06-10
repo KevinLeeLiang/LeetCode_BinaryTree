@@ -81,3 +81,7 @@ LeetCode二叉树算法题的解题仓库
 [337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/description/?envType=problem-list-v2&envId=binary-tree) : [L337_rob](L337_rob)
 
 [404. 左叶子之和]( https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=binary-tree) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
+
+[437. 路径总和 III](httpss://leetcode.cn/problems/path-sum-iii/description/?envType=problem-list-v2&envId=binary-tree) : [L437_pathSum](L437_pathSum)
+
+[449. 链表中的序列化表示](https://leetcode.cn/problems/serialize-and-deserialize-linked-list/description/?envType=problem-list-v2&envId=binary-tree) : [L449_serializeAndDeserialize](L449_serializeAndDeserialize)

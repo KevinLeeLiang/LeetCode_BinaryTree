@@ -53,6 +53,8 @@
 #include "L331_isValidSerialization/L331_isValidSerialization.h"
 #include "L337_rob/L337_rob.h"
 #include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
+#include "L437_pathSum/L437_pathSum.h"
+#include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
 
 class test_factory {
 private:
@@ -167,6 +169,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L404") {
             std::shared_ptr<L404_sumOfLeftLeaves> tmp = std::make_shared<L404_sumOfLeftLeaves>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L437") {
+            std::shared_ptr<L437_pathSum> tmp = std::make_shared<L437_pathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L449") {
+            std::shared_ptr<L449_serializeAndDeserialize> tmp = std::make_shared<L449_serializeAndDeserialize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
