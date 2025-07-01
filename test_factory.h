@@ -59,6 +59,8 @@
 #include "L501_findMode/L501_findMode.h"
 #include "L508_findFrequentTreeSum/L508_findFrequentTreeSum.h"
 #include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
+#include "L515_largestValues/L515_largestValues.h"
+#include "L530_getMinimumDifference/L530_getMinmumDifference.h"
 
 class test_factory {
 private:
@@ -191,6 +193,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L513") {
             std::shared_ptr<L513_findBottomLeftValue> tmp = std::make_shared<L513_findBottomLeftValue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L515") {
+            std::shared_ptr<L515_largestValues> tmp = std::make_shared<L515_largestValues>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L530") {
+            std::shared_ptr<L530_getMinmumDifference> tmp = std::make_shared<L530_getMinmumDifference>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }

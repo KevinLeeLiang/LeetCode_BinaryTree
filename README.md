@@ -93,3 +93,7 @@ LeetCode二叉树算法题的解题仓库
 [508. 出现次数最多的子树元素和](https://leetcode.cn/problems/most-frequent-subtree-sum/description/?envType=problem-list-v2&envId=binary-tree) : [L508_findFrequentTreeSum](L508_findFrequentTreeSum)
 
 [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/description/?envType=problem-list-v2&envId=binary-tree) : [L513_findBottomLeftValue](L513_findBottomLeftValue)
+
+[515. 在每个树行中找最大值](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/description/?envType=problem-list-v2&envId=binary-tree) : [L515_findLargestValue](L515_findLargestValue)
+
+[530. 二叉搜索树的最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/description/?envType=problem-list-v2&envId=binary-tree) : [L530_getMinimumDifference](L530_getMinimumDifference)
