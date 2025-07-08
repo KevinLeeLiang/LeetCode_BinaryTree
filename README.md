@@ -97,3 +97,7 @@ LeetCode二叉树算法题的解题仓库
 [515. 在每个树行中找最大值](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/description/?envType=problem-list-v2&envId=binary-tree) : [L515_findLargestValue](L515_findLargestValue)
 
 [530. 二叉搜索树的最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/description/?envType=problem-list-v2&envId=binary-tree) : [L530_getMinimumDifference](L530_getMinimumDifference)
+
+[538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L538_convertBST](L538_convertBST)
+
+[543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L543_diameterOfBinaryTree](L543_diameterOfBinaryTree)

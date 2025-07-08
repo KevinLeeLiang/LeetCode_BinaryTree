@@ -61,6 +61,8 @@
 #include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
 #include "L515_largestValues/L515_largestValues.h"
 #include "L530_getMinimumDifference/L530_getMinmumDifference.h"
+#include "L538_convertBST/L538_convertBST.h"
+#include "L543_diameterOfBinaryTree/L543_diameterOfBinaryTree.h"
 
 class test_factory {
 private:
@@ -199,6 +201,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L530") {
             std::shared_ptr<L530_getMinmumDifference> tmp = std::make_shared<L530_getMinmumDifference>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L538") {
+            std::shared_ptr<L538_convertBST> tmp = std::make_shared<L538_convertBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L543") {
+            std::shared_ptr<L543_diameterOfBinaryTree> tmp = std::make_shared<L543_diameterOfBinaryTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
