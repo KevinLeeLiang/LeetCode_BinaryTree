@@ -63,6 +63,7 @@
 #include "L530_getMinimumDifference/L530_getMinmumDifference.h"
 #include "L538_convertBST/L538_convertBST.h"
 #include "L543_diameterOfBinaryTree/L543_diameterOfBinaryTree.h"
+#include "L563_findTilt/L563_findTilt.h"
 
 class test_factory {
 private:
@@ -207,6 +208,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L543") {
             std::shared_ptr<L543_diameterOfBinaryTree> tmp = std::make_shared<L543_diameterOfBinaryTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L563") {
+            std::shared_ptr<L563_findTilt> tmp = std::make_shared<L563_findTilt>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }

@@ -101,3 +101,5 @@ LeetCode二叉树算法题的解题仓库
 [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L538_convertBST](L538_convertBST)
 
 [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L543_diameterOfBinaryTree](L543_diameterOfBinaryTree)
+
+[563. 二叉树的坡度](https://leetcode.cn/problems/binary-tree-tilt/description/?envType=problem-list-v2&envId=binary-tree) : [L563_findTilt](L563_findTilt)
