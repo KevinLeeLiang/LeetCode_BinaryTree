@@ -103,3 +103,5 @@ LeetCode二叉树算法题的解题仓库
 [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L543_diameterOfBinaryTree](L543_diameterOfBinaryTree)
 
 [563. 二叉树的坡度](https://leetcode.cn/problems/binary-tree-tilt/description/?envType=problem-list-v2&envId=binary-tree) : [L563_findTilt](L563_findTilt)
+
+[572. 另一棵树的子树](https://leetcode.cn/problems/subtree-of-another-tree/description/?envType=problem-list-v2&envId=binary-tree) : [L572_isSubtree](L572_isSubtree)
