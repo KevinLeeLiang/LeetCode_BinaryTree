@@ -65,6 +65,7 @@
 #include "L543_diameterOfBinaryTree/L543_diameterOfBinaryTree.h"
 #include "L563_findTilt/L563_findTilt.h"
 #include "L572_isSubtree/L572_isSubtree.h"
+#include "L606_tree2str/L606_tree2str.h"
 
 class test_factory {
 private:
@@ -215,6 +216,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         } else if (title == "L572") {
             std::shared_ptr<L572_isSubtree> tmp = std::make_shared<L572_isSubtree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
+        } else if (title == "L606") {
+            std::shared_ptr<L606_tree2str> tmp = std::make_shared<L606_tree2str>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinaryTree>(tmp);
         }
     }
